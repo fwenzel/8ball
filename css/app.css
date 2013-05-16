@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('../img/wood_pattern.png') repeat;
+    height: 100%;
+    margin: 1em 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#ball {
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #888 0%, #555 30%, #222 50%, black 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, #888, black);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, #888 0%, #555 30%, #222 50%, black 95%);
+    border-radius: 50%;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.inside-circle {
+    border-radius: 50%;
+    height: 180px;
+    margin: 60px;
+    position: absolute;
+    width: 180px;
+}
+
+#eight {
+    background-color: #fff;
+    color: #000;
+    font: 72pt monospace;
+    line-height: 180px;
+}
+.back #eight {
+    display: none;
+}
+
+.shaking {
+    -webkit-animation-direction: alternate;
+    -webkit-animation-duration: .1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: shaking;
+    -webkit-animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-name: shaking;
+    animation-timing-function: linear;
+}
+@keyframes shaking {
+    from {
+        margin-left: 1em;
+        margin-top: -1em;
+    }
+    to {
+        margin-left: -1em;
+        margin-top: 1em;
+    }
+}
+@-webkit-keyframes shaking {
+    from {
+        margin-left: 1em;
+        margin-top: -1em;
+    }
+    to {
+        margin-left: -1em;
+        margin-top: 1em;
+    }
+}
+
+#result {
+    background-color: #0A0A2A;
+    border: #0B0B61 1px solid;
+    display: none;
+}
+.back #result {
+    display: block;
+    border-radius: 50%;
+}
+
+#tria-wrap {
+    opacity: 0;
+    padding: 50px 10px;
+}
+
+#triangle {
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 120px solid #0404B4;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    width: 0;
+}
+
+#msg {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #CECEF6;
+    font: 12pt monospace;
+    padding: 1em 2em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#tria-wrap.show {
+    opacity: 1;
+    transition-property: opacity;
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+
+#shake {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    height: 2em;
+    width: 50%;
+}

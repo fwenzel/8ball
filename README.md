@@ -7,7 +7,12 @@ orientation API.
 
 ## Acknowledgments
 
-* Thanks to *barkerbaggies* for his [8-ball icon](http://www.iconarchive.com/show/pool-ball-icons-by-barkerbaggies/Ball-8-icon.html) (CC by-nc-sa).
+Thanks:
+
+* to *barkerbaggies* for his [8-ball icon](http://www.iconarchive.com/show/pool-ball-icons-by-barkerbaggies/Ball-8-icon.html)
+  (CC by-nc-sa).
+* to *Alexey Usoltsev* for his [wood pattern](http://subtlepatterns.com/wood-pattern/)
+  (CC by-nc-sa).
 
 ## License
 
