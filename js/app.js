@@ -48,6 +48,10 @@ $(function() {
             $('#tria-wrap').addClass('show');
         }, 3000);
     });
+
+    $('#tria-wrap').click(function(e) {
+        $('#ball').removeClass('back');
+    });
 });
 
 
