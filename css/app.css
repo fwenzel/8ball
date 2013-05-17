@@ -154,24 +154,24 @@ body > .visible {
     background-color: #666;
     color: #fff;
 
-    font: 12pt monospace;
+    font: 18pt Arial;
     font-weight: bold;
-    line-height: 2em;
     text-decoration: none;
+    vertical-align: middle;
 
     position: absolute;
     bottom: 10%;
     right: 5%;
     height: 2em;
     width: 2em;
-    padding: .5em;
+    line-height: 2em;
 }
-#info:before {
-    content: 'i';
+#info:not(.settings):before {
+    content: '\2699'; /* gear */
+    font-size: 36pt;
 }
 #info.settings:before {
-    content: '\21A9';
-    line-height: 2.5em;
+    content: '\21A9'; /* "back" */
 }
 
 #mode .button {
