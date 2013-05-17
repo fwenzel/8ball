@@ -21,4 +21,4 @@ This program is free software; it is distributed under an
 
 ---
 
-Copyright (c) 2012-2013 Fred Wenzel.
+Copyright (c) 2013 Fred Wenzel.
