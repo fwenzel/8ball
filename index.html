@@ -11,18 +11,36 @@
   </head>
   <body>
 
-    <div id="ball">
-      <div id="eight" class="inside-circle">8</div>
-      <div id="result" class="inside-circle">
-        <div id="tria-wrap">
-          <div id="triangle"></div>
-          <div id="msg"></div>
+    <section id="game" class="visible">
+      <div id="ball-wrap">
+        <div id="ball">
+          <div id="eight" class="inside-circle"></div>
+          <div id="result" class="inside-circle">
+            <div id="tria-wrap">
+              <div id="triangle"></div>
+              <div id="msg"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <button id="shake">Shake!</button>
-    <!--<button id="install-btn">Install</button>-->
+      <a href="#" id="shake" class="button">Shake!</a>
+    </section>
+
+    <section id="settings">
+      <section id="mode">
+        <h1>Which 8-ball would you like?</h1>
+        <a href="#" class="button" data-mode="classic">Classic</a><br>
+        <a href="#" class="button" data-mode="compliments">Happiness</a>
+      </section>
+
+      <section id="install">
+        <h1>Magic 8-ball is an Open Web App</h1>
+        <a href="#" class="button">Install</a>
+      </section>
+    </section>
+
+    <a id="info" href="#"></a>
 
     <script type="text/javascript" src="js/lib/zepto.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
