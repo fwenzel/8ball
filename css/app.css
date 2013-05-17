@@ -28,19 +28,22 @@ body > .visible {
 
 #ball {
     border-radius: 50%;
-    display: inline-block;
-    height: 300px;
-    width: 300px;
-}
-#ball[data-mode=classic] {
     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #888 0%, #555 30%, #222 50%, black 95%);
     background-image: -webkit-radial-gradient(45px 45px, circle cover, #888, black);
     background-image: radial-gradient(45px 45px 45deg, circle cover, #888 0%, #555 30%, #222 50%, black 95%);
+    display: inline-block;
+    height: 300px;
+    width: 300px;
 }
 #ball[data-mode=compliments] {
     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 80%, red 95%);
     background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, black);
     background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 80%, red 95%);
+}
+#ball[data-mode=dollar] {
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #74DF00 0%, #4B8A08 80%, #38610B 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, #74DF00, #38610B);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, #74DF00 0%, #4B8A08 80%, #38610B 95%);
 }
 
 .inside-circle {
@@ -68,6 +71,9 @@ body > .visible {
     font: 120pt Arial sans-serif;
     line-height: 180px;
     content: '\263A';
+}
+#ball[data-mode=dollar] #eight:before {
+    content: '$';
 }
 
 .shaking {

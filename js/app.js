@@ -35,6 +35,13 @@ var answers = {
         'Superheroes want to be like you',
         'You\'re so smart',
         'You\'re a winner'
+    ],
+    dollar: [
+        'buy',
+        'sell',
+        'hold',
+        'invest in gold',
+        'put it in your pillow'
     ]
 };
 
