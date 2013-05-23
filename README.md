@@ -1,6 +1,6 @@
 # Magic 8-Ball
 
-![logo](https://raw.github.com/fwenzel/8ball/master/logo.png)
+![logo](https://raw.github.com/fwenzel/8ball/gh-pages/logo.png)
 
 A simple HTML5 "magic 8-ball" app.
 
