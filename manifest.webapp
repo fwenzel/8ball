@@ -13,7 +13,7 @@
     "url": "http://fredericiana.com"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
+  "appcache_path": "/8ball.appcache",
   "locales": {
     "de": {
       "description": "Alle Antworten, die Sie jemals benötigen könnten."
