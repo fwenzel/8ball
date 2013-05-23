@@ -41,7 +41,7 @@ var answers = {
         'sell',
         'hold',
         'invest in gold',
-        'put it in your pillow'
+        'stash it in your pillow'
     ]
 };
 
