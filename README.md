@@ -7,6 +7,8 @@ A simple HTML5 "magic 8-ball" app.
 Runs as a webapp in a browser or on a mobile device supporting the device
 orientation API.
 
+![screenshot](https://raw.github.com/fwenzel/8ball/gh-pages/screenshot.jpg)
+
 ## Acknowledgments
 
 Thanks:
