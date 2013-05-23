@@ -2,10 +2,10 @@
 
 ![logo](https://raw.github.com/fwenzel/8ball/gh-pages/logo.png)
 
-A simple HTML5 "magic 8-ball" app.
+A simple HTML5 "magic 8-ball" app for Firefox OS.
 
-Runs as a webapp in a browser or on a mobile device supporting the device
-orientation API.
+You can try it out on the web at [8ball.toob.ws](http://8ball.toob.ws) or
+[install it from the Firefox Marketplace](https://marketplace.firefox.com/app/magic-8-ball/).
 
 ![screenshot](https://raw.github.com/fwenzel/8ball/gh-pages/screenshot.jpg)
 
