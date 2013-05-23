@@ -1,5 +1,7 @@
 # Magic 8-Ball
 
+![logo](https://raw.github.com/fwenzel/8ball/master/logo.png)
+
 A simple HTML5 "magic 8-ball" app.
 
 Runs as a webapp in a browser or on a mobile device supporting the device
